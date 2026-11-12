@@ -1,0 +1,179 @@
+# =========================================================
+# FoodAI - Root .gitignore
+# React + Vite + Node.js + MongoDB
+# =========================================================
+
+# -------------------------
+# Dependencies
+# -------------------------
+node_modules/
+**/node_modules/
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# -------------------------
+# Build / Production
+# -------------------------
+dist/
+build/
+out/
+coverage/
+**/dist/
+**/build/
+**/coverage/
+
+# -------------------------
+# Vite
+# -------------------------
+.vite/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -------------------------
+# Runtime files
+# -------------------------
+*.pid
+*.pid.lock
+*.seed
+*.pid
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# IDE / Editors
+# -------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+temp/
+tmp/
+
+# -------------------------
+# Test artifacts
+# -------------------------
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# -------------------------
+# TypeScript
+# -------------------------
+*.tsbuildinfo
+
+# -------------------------
+# ESLint
+# -------------------------
+.eslintcache
+
+# -------------------------
+# MongoDB local files
+# -------------------------
+data/
+mongodb/
+mongo-data/
+*.bson
+*.wt
+
+# -------------------------
+# Generated files
+# -------------------------
+generated/
+generated-data/
+uploads/
+*.generated.*
+
+# -------------------------
+# AI / local model files
+# -------------------------
+.ai/
+.ai-cache/
+models/
+*.gguf
+*.bin
+
+# -------------------------
+# Secrets / certificates
+# -------------------------
+*.pem
+*.key
+*.crt
+*.cer
+secrets/
+credentials/
+
+# -------------------------
+# Local development
+# -------------------------
+.local/
+.local-*
+*.local
+
+# -------------------------
+# Package manager
+# -------------------------
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# Keep lock files committed
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# -------------------------
+# Deployment
+# -------------------------
+.vercel/
+.netlify/
+.serverless/
+.aws-sam/
+
+# -------------------------
+# Misc
+# -------------------------
+*.bak
+*.backup
+*.orig
+*.rej
+EOF
